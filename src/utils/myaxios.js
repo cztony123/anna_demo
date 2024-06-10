@@ -1,11 +1,5 @@
 import myaxios from 'axios'
 
-// axios.get("/data.json").then(resp=>{
-//     console.log(resp)
-// }).catch(err=>{
-//     console.log(err)
-// })
-
 myaxios.create({
     baseURL:'/', //基础路径，发送请求路径的前缀
     timeout:5000 //超时时间

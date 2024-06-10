@@ -7,6 +7,13 @@ export default{
             url:'data.json'
         })
         return promise1
+    },
+    getLogin(){
+        const promise2 = myaxios({
+            method:'get',
+            url:'login.json'
+        })
+        return promise2
     }
 }
 
